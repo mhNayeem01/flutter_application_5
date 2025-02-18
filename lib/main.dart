@@ -22,42 +22,32 @@ class LabClass05 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("Basic Flutter Design -02"),
-        ),
-        body: Column(
-          children: [
-            Text(
-              "4.2",
-              style: TextStyle(
-                fontSize: 20,
-              ),
-            ),
-            Row(
-              children: [
-                Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-                Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-                Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-                Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-                Icon(
-                  Icons.star_outline,
-                  size: 50,
-                ),
-              ],
-            )
-          ],
-        ));
+      appBar: AppBar(
+        title: Text("Basic Flutter Design -02"),
+      ),
+      body: Row(
+        children: [
+          Icon(
+            Icons.shop,
+            size: 50,
+            color: const Color.fromARGB(215, 10, 23, 255),
+
+          ),
+          Text("I am Nayeem",
+          style: TextStyle(
+            color: Colors.blue,
+            fontSize: 20,
+          ),),
+          Text(" And" , style: TextStyle(
+            color: Colors.green,
+            fontSize: 25,
+          ),),
+          Text(" this is Flutter",style: TextStyle(
+            color: Colors.red,
+            fontSize: 20,
+          ),),
+        ],
+      )
+    );
   }
 }
