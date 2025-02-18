@@ -25,29 +25,43 @@ class LabClass05 extends StatelessWidget {
       appBar: AppBar(
         title: Text("Basic Flutter Design -02"),
       ),
-      body: Row(
+      body: Column(
         children: [
-          Icon(
-            Icons.shop,
-            size: 50,
-            color: const Color.fromARGB(215, 10, 23, 255),
-
+          Align(
+            alignment: Alignment.centerLeft, // Aligns to the left
+            child: Text(
+              " 4.0",
+              style: TextStyle(
+                fontSize: 40,
+              ),
+            ),
           ),
-          Text("I am Nayeem",
-          style: TextStyle(
-            color: Colors.blue,
-            fontSize: 20,
-          ),),
-          Text(" And" , style: TextStyle(
-            color: Colors.green,
-            fontSize: 25,
-          ),),
-          Text(" this is Flutter",style: TextStyle(
-            color: Colors.red,
-            fontSize: 20,
-          ),),
+          Row(
+            children: [
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
+              Icon(
+                Icons.star_outline,
+                size: 50,
+              ),
+            ],
+          ),
         ],
-      )
+      ),
     );
   }
 }
