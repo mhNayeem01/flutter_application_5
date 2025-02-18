@@ -13,7 +13,7 @@ class LabClass05 extends StatelessWidget {
      title: "Basic UI -02",
      home: Scaffold(
       appBar: AppBar(
-        title: Text("Basic Flutter Design "),
+        title: Text("Basic Flutter Design -02 "),
       ),
      ), 
     ),
