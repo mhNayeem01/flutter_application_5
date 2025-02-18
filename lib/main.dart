@@ -15,6 +15,12 @@ class LabClass05 extends StatelessWidget {
       appBar: AppBar(
         title: Text("Basic Flutter Design -02 "),
       ),
+      body: Text(
+        "Basic flutter UI part 02",
+        style: TextStyle(
+          fontSize: 30,
+        )
+      )
      ), 
     ),
   }
