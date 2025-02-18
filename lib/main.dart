@@ -25,34 +25,104 @@ class LabClass05 extends StatelessWidget {
       appBar: AppBar(
         title: Text("Basic Flutter Design -02"),
       ),
-      body: Column(
-        children: [
-          Align(
-            alignment: Alignment.centerLeft, // Aligns to the left
-            child: Text(
-              " 4.0",
-              style: TextStyle(
-                fontSize: 40,
-              ),
-            ),
-          ),
-          Row(
+      body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,  // Correctly placed scrollDirection
+        child: Container(
+          height: double.infinity,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Icon(
-                Icons.star,
+                Icons.abc_sharp,
                 size: 50,
+                color: const Color.fromARGB(232, 91, 1, 127),
+              ),
+              Icon(
+                Icons.trending_neutral_outlined,
+                size: 50,
+                color: const Color.fromARGB(215, 191, 9, 197),
               ),
               Icon(
                 Icons.star,
                 size: 50,
+                color: const Color.fromARGB(233, 10, 166, 70),
+              ),
+              Icon(
+                Icons.star_outline,
+                size: 50,
+              ),
+              Icon(
+                Icons.abc_sharp,
+                size: 50,
+                color: const Color.fromARGB(232, 91, 1, 127),
+              ),
+              Icon(
+                Icons.trending_neutral_outlined,
+                size: 50,
+                color: const Color.fromARGB(215, 191, 9, 197),
               ),
               Icon(
                 Icons.star,
                 size: 50,
+                color: const Color.fromARGB(233, 10, 166, 70),
+              ),
+              Icon(
+                Icons.star_outline,
+                size: 50,
+              ),
+              Icon(
+                Icons.abc_sharp,
+                size: 50,
+                color: const Color.fromARGB(232, 91, 1, 127),
+              ),
+              Icon(
+                Icons.trending_neutral_outlined,
+                size: 50,
+                color: const Color.fromARGB(215, 191, 9, 197),
               ),
               Icon(
                 Icons.star,
                 size: 50,
+                color: const Color.fromARGB(233, 10, 166, 70),
+              ),
+              Icon(
+                Icons.star_outline,
+                size: 50,
+              ),
+              Icon(
+                Icons.abc_sharp,
+                size: 50,
+                color: const Color.fromARGB(232, 91, 1, 127),
+              ),
+              Icon(
+                Icons.trending_neutral_outlined,
+                size: 50,
+                color: const Color.fromARGB(215, 191, 9, 197),
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+                color: const Color.fromARGB(233, 10, 166, 70),
+              ),
+              Icon(
+                Icons.star_outline,
+                size: 50,
+              ),
+              Icon(
+                Icons.abc_sharp,
+                size: 50,
+                color: const Color.fromARGB(232, 91, 1, 127),
+              ),
+              Icon(
+                Icons.trending_neutral_outlined,
+                size: 50,
+                color: const Color.fromARGB(215, 191, 9, 197),
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+                color: const Color.fromARGB(233, 10, 166, 70),
               ),
               Icon(
                 Icons.star_outline,
@@ -60,7 +130,7 @@ class LabClass05 extends StatelessWidget {
               ),
             ],
           ),
-        ],
+        ),
       ),
     );
   }
