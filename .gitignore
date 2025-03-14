@@ -6,6 +6,11 @@
 .DS_Store
 .c
 .cpp
+
+*.c
+*.cpp
+
+
 .atom/
 .build/
 .buildlog/
